@@ -18,7 +18,7 @@ public class AerospikeConfig {
 
     @Bean
     AerospikeTemplate aerospikeTemplate(){
-        return new AerospikeTemplate(aerospikeClient(), "test ");
+        return new AerospikeTemplate(aerospikeClient(), "test");
     }
 
     @Bean
