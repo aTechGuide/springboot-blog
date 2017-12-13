@@ -10,4 +10,7 @@ POST localhost:8080/token {
      	"role": "admin"
      }
 
-# References
+## Reference
+[What is JWT? JWT Vs OAuth | Tech Primers](https://www.youtube.com/watch?v=muRr4dImv1k)  
+[JWT.io](https://jwt.io/)  
+[Spring Security using JWT in Spring Boot App | Tech Primers](https://www.youtube.com/watch?v=-HYrUs1ZCLI)

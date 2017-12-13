@@ -19,11 +19,11 @@ public class JwtValidator {
         try {
             Claims body = Jwts.parser()
                     .setSigningKey(SECRET)
-                    .parseClaimsJwt(token)
+                    .parseClaimsJws(token)
                     .getBody();
 
             user = new JwtUser();
-            user.setUsername(body.getSubject());
+            user.setUserName(body.getSubject());
             user.setId(Long.parseLong((String)body.get("userId")));
             user.setRole((String)body.get("role"));
 
