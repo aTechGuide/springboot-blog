@@ -21,7 +21,8 @@
 
 	<modules>
 		<!--<module>secure-spring-h2</module>-->
-	</modules>
+    <module>blockchain</module>
+  </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
